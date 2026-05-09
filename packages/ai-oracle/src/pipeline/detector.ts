@@ -1,7 +1,7 @@
-import type { SourceResult, DisasterEvent, DisasterType, Severity, VerificationResult, CampaignSpec } from "./types.js";
-import { fetchBMKG } from "./sources/bmkg.js";
-import { fetchBNPB } from "./sources/bnpb.js";
-import { fetchNews, searchNewsForDisaster } from "./sources/news.js";
+import type { SourceResult, DisasterEvent, DisasterType, Severity, VerificationResult, CampaignSpec } from "../types.js";
+import { fetchBMKG } from "../sources/bmkg.js";
+import { fetchBNPB } from "../sources/bnpb.js";
+import { fetchNews, searchNewsForDisaster } from "../sources/news.js";
 
 export class DisasterDetector {
   private sources = [fetchBMKG, fetchBNPB];
