@@ -1,0 +1,13 @@
+[package]
+name = "tabah-campaign"
+version = "0.1.0"
+description = "Emergency campaign management for Tabah Protocol"
+edition = "2021"
+
+[lib]
+name = "tabah_campaign"
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+anchor-lang = "0.31.0"
+solana-program = "2.2.0"

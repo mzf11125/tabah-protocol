@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* shadcn-style CSS variables */
+:root {
+  --background: #ffffff;
+  --foreground: #0c0a09;
+  --muted: #f5f5f4;
+  --muted-foreground: #78716c;
+  --border: #e7e5e4;
+  --ring: #0c0a09;
+  --radius: 0.5rem;
+}
